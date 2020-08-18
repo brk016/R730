@@ -8,7 +8,7 @@ dns_servers:
 name: "alameda-r730-dx"
 description: "WRCP DX Cloud"
 location: "alameda-ca-usa"
-contact: "stephen.gooch@windriver.com"
+contact: "contact_email"
 management_subnet: 192.168.5.0/24
 management_start_address: 192.168.5.2
 management_end_address: 192.168.5.50
@@ -23,8 +23,8 @@ external_oam_node_1_address: 147.11.90.22
 
 docker_registries:
  defaults:
-    username: AKIAZDKOSK7ZMIIWRKP4
-    password: SBM13C23dbR1zGyWj6RRjyWcLPtVNDK/iBPoV2UY
+    username: AWS_username
+    password: AWS_password
 
 additional_local_registry_images:
   - docker.io/wind-river/cloud-platform-deployment-manager:WRCP_20.06
@@ -34,6 +34,6 @@ additional_local_registry_images:
   - quay.io/external_storage/rbd-provisioner:v2.1.1-k8s1.11
   - docker.io/starlingx/ceph-config-helper:v1.15.0
 
-admin_password: Li69nux*
-ansible_become_pass: Li69nux*
+admin_password: admin
+ansible_become_pass: admin
 
