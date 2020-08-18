@@ -1,2 +1,0 @@
-- import_playbook: /usr/share/ansible/stx-ansible/playbooks/bootstrap.yml
-- import_playbook: /home/sysadmin/wind-river-cloud-platform-deployment-manager.yaml
