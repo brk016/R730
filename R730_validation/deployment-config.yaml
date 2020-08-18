@@ -9,7 +9,7 @@ spec: {}
 ---
 apiVersion: v1
 data:
-  OS_PASSWORD: TGk2OW51eCo=
+  OS_PASSWORD: YWRtaW4=
   OS_USERNAME: YWRtaW4=
 kind: Secret
 metadata:
@@ -34,8 +34,8 @@ type: Opaque
 ---
 apiVersion: v1
 data:
-  password: "d2luZHJpdmVy"
-  username: cm9vdA==
+  password: "YWRtaW4="
+  username: YWRtaW4=
 kind: Secret
 metadata:
   name: bmc-secret
@@ -44,8 +44,8 @@ type: kubernetes.io/basic-auth
 ---
 apiVersion: v1
 data:
-  password: "QURNSU4="
-  username: QURNSU4=
+  password: "YWRtaW4="
+  username: YWRtaW4=
 kind: Secret
 metadata:
   name: bmc-secret-worker
